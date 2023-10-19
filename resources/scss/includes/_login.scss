@@ -1,0 +1,52 @@
+
+/* Start Login Blade */
+.login {
+    background-size: 100% 100%;
+    height: 100vh;
+    .login_content {
+        background-color: #27534e31;
+        height: 100vh;
+    }
+    .login_page{
+        width: 500px;
+    }
+    .form-bg-color{
+        background-color: $form-color;
+    }
+}
+/* End Login Blade */
+/* Start Forgot Password Blade */
+.forgot_password {
+    background-size: 100% 100%;
+    height: 100%;
+    @include media-min-lg {
+        height: 100vh;
+    }
+    .forgot_password_content {
+        background-color: #27534e31;
+        height: 100%;
+        @include media-min-lg {
+            height: 100vh;
+        }
+    }
+}
+/* End Forgot Password Blade */
+/* Start Register Blade */
+.register {
+    background-size: 100% 100%;
+    height: 100%;
+    @include media-min-lg {
+        height: 100vh;
+    }
+    .register_content {
+        background-color: #27534e31;
+        height: 100%;
+        @include media-min-lg {
+            height: 100vh;
+        }
+    }
+}
+/* End Register Blade */
+.body {
+    background-color: #fae1df;
+}
